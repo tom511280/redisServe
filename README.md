@@ -1,4 +1,4 @@
-#redis
+#	redis
 
 ##	安裝教學
 ###	step1.到https://github.com/MicrosoftArchive/redis/releases下載對應的版本
