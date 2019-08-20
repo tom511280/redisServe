@@ -1,8 +1,8 @@
 #	redis
 ### 一、說明
-#### 此伺服器皆由https://github.com/MicrosoftArchive/redis/releases下載對應的版本解壓縮後進行調整
+#### 此伺服器皆由 https://github.com/MicrosoftArchive/redis/releases 下載對應的版本解壓縮後進行調整
 
-###	二、安裝教學
+###	二、於Windows下的安裝教學
 ####	step1.使用cmd cd到各自的六個目錄下(ex.cd 開發DB\redis\RedisSentinel26377)
 ####	step2.輸入以下各自的指令分別安裝一台主伺服器、二台從伺服器、三台哨兵伺服器(安裝後，以後就可以從「服務」內直接啟動)
 *	(1).安裝主伺服 : redis-server.exe --service-install redis.windows6379.conf --loglevel verbose  --service-name RedisService6379
